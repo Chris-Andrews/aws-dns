@@ -1,0 +1,30 @@
+{
+  "name": "aws-dns",
+  "version": "0.0.1",
+  "description": "Dynamically update a domain's DNS to your current IP using aws-sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chris-Andrews/aws-dns.git"
+  },
+  "keywords": [
+    "aws-sdk",
+    "dynamic",
+    "DNS",
+    "route53",
+    "aws"
+  ],
+  "author": "Chris Andrews",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chris-Andrews/aws-dns/issues"
+  },
+  "homepage": "https://github.com/Chris-Andrews/aws-dns",
+  "dependencies": {
+    "aws-sdk": "^2.1.26",
+    "external-ip": "^0.2.3"
+  }
+}
